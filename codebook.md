@@ -122,104 +122,104 @@ Derivative tidy data set was created with `run_analysis.R` script and has `X_ful
 
 ### Tidy Data Set Variables
 
-The tidy data set contains 88 variables (columns). The variables containing the Mean and Std in their names means avarage and standard deviations values respectively. The units of measurements of variables with number 3-88 are the same as in the original data set.
+The tidy data set contains 88 variables (columns). The variables containing the Mean and Std in their names means avarage and standard deviations values respectively. The units of measurements of variables are the same as in the original data set.
 
-  1.   subject
-        The id of the person. It has values in the range of [1:30]. 
-  2.   activity
-        The name of person's activities. This is a factor variable with 6                 levels:
-        WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
-  3.   timeBodyAccelerometerMeanX
-  4.   timeBodyAccelerometerMeanY
-  5.   timeBodyAccelerometerMeanZ
-  6.   timeGravityAccelerometerMeanX
-  7.   timeGravityAccelerometerMeanY
-  8.   timeGravityAccelerometerMeanZ
-  9.   timeBodyAccelerometerJerkMeanX
- 10.   timeBodyAccelerometerJerkMeanY
- 11.   timeBodyAccelerometerJerkMeanZ
- 12.   timeBodyGyroscopeMeanX
- 13.   timeBodyGyroscopeMeanY
- 14.   timeBodyGyroscopeMeanZ
- 15.   timeBodyGyroscopeJerkMeanX
- 16.   timeBodyGyroscopeJerkMeanY
- 17.   timeBodyGyroscopeJerkMeanZ
- 18.   timeBodyAccelerometerMagnitudeMean
- 19.   timeGravityAccelerometerMagnitudeMean
- 20.   timeBodyAccelerometerJerkMagnitudeMean
- 21.   timeBodyGyroscopeMagnitudeMean
- 22.   timeBodyGyroscopeJerkMagnitudeMean
- 23.   frequencyBodyAccelerometerMeanX
- 24.   frequencyBodyAccelerometerMeanY
- 25.   frequencyBodyAccelerometerMeanZ
- 26.   frequencyBodyAccelerometerMeanFreqX
- 27.   frequencyBodyAccelerometerMeanFreqY
- 28.   frequencyBodyAccelerometerMeanFreqZ
- 29.   frequencyBodyAccelerometerJerkMeanX
- 30.   frequencyBodyAccelerometerJerkMeanY
- 31.   frequencyBodyAccelerometerJerkMeanZ
- 32.   frequencyBodyAccelerometerJerkMeanFreqX
- 33.   frequencyBodyAccelerometerJerkMeanFreqY
- 34.   frequencyBodyAccelerometerJerkMeanFreqZ
- 35.   frequencyBodyGyroscopeMeanX
- 36.   frequencyBodyGyroscopeMeanY
- 37.   frequencyBodyGyroscopeMeanZ
- 38.   frequencyBodyGyroscopeMeanFreqX
- 39.   frequencyBodyGyroscopeMeanFreqY
- 40.   frequencyBodyGyroscopeMeanFreqZ
- 41.   frequencyBodyAccelerometerMagnitudeMean
- 42.   frequencyBodyAccelerometerMagnitudeMeanFreq
- 43.   frequencyBodyBodyAccelerometerJerkMagnitudeMean
- 44.   frequencyBodyBodyAccelerometerJerkMagnitudeMeanFreq
- 45.   frequencyBodyBodyGyroscopeMagnitudeMean
- 46.   frequencyBodyBodyGyroscopeMagnitudeMeanFreq
- 47.   frequencyBodyBodyGyroscopeJerkMagnitudeMean
- 48.   frequencyBodyBodyGyroscopeJerkMagnitudeMeanFreq
- 49.   angle(tBodyAccelerometerMean,gravity)
- 50.   angle(tBodyAccelerometerJerkMean),gravityMean)
- 51.   angle(tBodyGyroscopeMean,gravityMean)
- 52.   angle(tBodyGyroscopeJerkMean,gravityMean)
- 53.   angle(X,gravityMean)
- 54.   angle(Y,gravityMean)
- 55.   angle(Z,gravityMean)
- 56.   timeBodyAccelerometerStdX
- 57.   timeBodyAccelerometerStdY
- 58.   timeBodyAccelerometerStdZ
- 59.   timeGravityAccelerometerStdX
- 60.   timeGravityAccelerometerStdY
- 61.   timeGravityAccelerometerStdZ
- 62.   timeBodyAccelerometerJerkStdX
- 63.   timeBodyAccelerometerJerkStdY
- 64.   timeBodyAccelerometerJerkStdZ
- 65.   timeBodyGyroscopeStdX
- 66.   timeBodyGyroscopeStdY
- 67.   timeBodyGyroscopeStdZ
- 68.   timeBodyGyroscopeJerkStdX
- 69.   timeBodyGyroscopeJerkStdY
- 70.   timeBodyGyroscopeJerkStdZ
- 71.   timeBodyAccelerometerMagnitudeStd
- 72.   timeGravityAccelerometerMagnitudeStd
- 73.   timeBodyAccelerometerJerkMagnitudeStd
- 74.   timeBodyGyroscopeMagnitudeStd
- 75.   timeBodyGyroscopeJerkMagnitudeStd
- 76.   frequencyBodyAccelerometerStdX
- 77.   frequencyBodyAccelerometerStdY
- 78.   frequencyBodyAccelerometerStdZ
- 79.   frequencyBodyAccelerometerJerkStdX
- 80.   frequencyBodyAccelerometerJerkStdY
- 81.   frequencyBodyAccelerometerJerkStdZ
- 82.   frequencyBodyGyroscopeStdX
- 83.   frequencyBodyGyroscopeStdY
- 84.   frequencyBodyGyroscopeStdZ
- 85.   frequencyBodyAccelerometerMagnitudeStd
- 86.   frequencyBodyBodyAccelerometerJerkMagnitudeStd
- 87.   frequencyBodyBodyGyroscopeMagnitudeStd
- 88.   frequencyBodyBodyGyroscopeJerkMagnitudeStd    
+1. subject
+   	- The id of the person. It has values in the range of [1:30]. 
+2. activity
+ 	- The name of person's activities. This is a factor variable with 6 levels:
+ 		- WALKING
+ 		- WALKING_UPSTAIRS
+ 		- WALKING_DOWNSTAIRS
+ 		- SITTING
+ 		- STANDING
+ 		- LAYING
+3. timeBodyAccelerometerMeanX
+4. timeBodyAccelerometerMeanY
+5. timeBodyAccelerometerMeanZ
+6. timeGravityAccelerometerMeanX
+7. timeGravityAccelerometerMeanY
+8. timeGravityAccelerometerMeanZ
+9. timeBodyAccelerometerJerkMeanX
+10. timeBodyAccelerometerJerkMeanY
+11. timeBodyAccelerometerJerkMeanZ
+12. timeBodyGyroscopeMeanX
+13. timeBodyGyroscopeMeanY
+14. timeBodyGyroscopeMeanZ
+15. timeBodyGyroscopeJerkMeanX
+16. timeBodyGyroscopeJerkMeanY
+17. timeBodyGyroscopeJerkMeanZ
+18. timeBodyAccelerometerMagnitudeMean
+19. timeGravityAccelerometerMagnitudeMean
+20. timeBodyAccelerometerJerkMagnitudeMean
+21. timeBodyGyroscopeMagnitudeMean
+22. timeBodyGyroscopeJerkMagnitudeMean
+23. frequencyBodyAccelerometerMeanX
+24. frequencyBodyAccelerometerMeanY
+25. frequencyBodyAccelerometerMeanZ
+26. frequencyBodyAccelerometerMeanFreqX
+27. frequencyBodyAccelerometerMeanFreqY
+28. frequencyBodyAccelerometerMeanFreqZ
+29. frequencyBodyAccelerometerJerkMeanX
+30. frequencyBodyAccelerometerJerkMeanY
+31. frequencyBodyAccelerometerJerkMeanZ
+32. frequencyBodyAccelerometerJerkMeanFreqX
+33. frequencyBodyAccelerometerJerkMeanFreqY
+34. frequencyBodyAccelerometerJerkMeanFreqZ
+35. frequencyBodyGyroscopeMeanX
+36. frequencyBodyGyroscopeMeanY
+37. frequencyBodyGyroscopeMeanZ
+38. frequencyBodyGyroscopeMeanFreqX
+39. frequencyBodyGyroscopeMeanFreqY
+40. frequencyBodyGyroscopeMeanFreqZ
+41. frequencyBodyAccelerometerMagnitudeMean
+42. frequencyBodyAccelerometerMagnitudeMeanFreq
+43. frequencyBodyBodyAccelerometerJerkMagnitudeMean
+44. frequencyBodyBodyAccelerometerJerkMagnitudeMeanFreq
+45. frequencyBodyBodyGyroscopeMagnitudeMean
+46. frequencyBodyBodyGyroscopeMagnitudeMeanFreq
+47. frequencyBodyBodyGyroscopeJerkMagnitudeMean
+48. frequencyBodyBodyGyroscopeJerkMagnitudeMeanFreq
+49. angle(tBodyAccelerometerMean,gravity)
+50. angle(tBodyAccelerometerJerkMean),gravityMean)
+51. angle(tBodyGyroscopeMean,gravityMean)
+52. angle(tBodyGyroscopeJerkMean,gravityMean)
+53. angle(X,gravityMean)
+54. angle(Y,gravityMean)
+55. angle(Z,gravityMean)
+56. timeBodyAccelerometerStdX
+57. timeBodyAccelerometerStdY
+58. timeBodyAccelerometerStdZ
+59. timeGravityAccelerometerStdX
+60. timeGravityAccelerometerStdY
+61. timeGravityAccelerometerStdZ
+62. timeBodyAccelerometerJerkStdX
+63. timeBodyAccelerometerJerkStdY
+64. timeBodyAccelerometerJerkStdZ
+65. timeBodyGyroscopeStdX
+66. timeBodyGyroscopeStdY
+67. timeBodyGyroscopeStdZ
+68. timeBodyGyroscopeJerkStdX
+69. timeBodyGyroscopeJerkStdY
+70. timeBodyGyroscopeJerkStdZ
+71. timeBodyAccelerometerMagnitudeStd
+72. timeGravityAccelerometerMagnitudeStd
+73. timeBodyAccelerometerJerkMagnitudeStd
+74. timeBodyGyroscopeMagnitudeStd
+75. timeBodyGyroscopeJerkMagnitudeStd
+76. frequencyBodyAccelerometerStdX
+77. frequencyBodyAccelerometerStdY
+78. frequencyBodyAccelerometerStdZ
+79. frequencyBodyAccelerometerJerkStdX
+80. frequencyBodyAccelerometerJerkStdY
+81. frequencyBodyAccelerometerJerkStdZ
+82. frequencyBodyGyroscopeStdX
+83. frequencyBodyGyroscopeStdY
+84. frequencyBodyGyroscopeStdZ
+85. frequencyBodyAccelerometerMagnitudeStd
+86. frequencyBodyBodyAccelerometerJerkMagnitudeStd
+87. frequencyBodyBodyGyroscopeMagnitudeStd
+88. frequencyBodyBodyGyroscopeJerkMagnitudeStd    
 
 ### How the Tidy Data Set was created
 
